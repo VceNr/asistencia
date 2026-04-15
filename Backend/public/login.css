@@ -1,0 +1,53 @@
+/* CONTENEDOR LOGIN CENTRADO */
+.login-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: linear-gradient(135deg, #1e3c72, #2a5298);
+}
+
+/* CAJA LOGIN */
+.login-box {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  width: 320px;
+
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+  text-align: center;
+}
+
+/* INPUTS */
+.login-box input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+/* BOTÓN */
+.login-box button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+
+  background: #2a5298;
+  border: none;
+  border-radius: 6px;
+  color: white;
+
+  cursor: pointer;
+}
+
+.login-box button:hover {
+  background: #1e3c72;
+}

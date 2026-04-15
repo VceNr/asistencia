@@ -1,0 +1,53 @@
+/* FONDO GENERAL */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #eef2f7;
+}
+
+/* CONTENEDOR */
+.dashboard-container {
+  max-width: 1000px;
+  margin: auto;
+  padding: 30px;
+}
+
+/* HEADER */
+.dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.dashboard-header h1 {
+  margin: 0;
+  color: #333;
+}
+
+.dashboard-header button {
+  background: #4CAF50;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+}
+
+.dashboard-header button:hover {
+  background: #43a047;
+}
+
+/* CARD */
+.card {
+  background: white;
+  padding: 25px;
+  border-radius: 16px;
+
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+}
+
+/* CANVAS */
+canvas {
+  max-height: 400px;
+}
